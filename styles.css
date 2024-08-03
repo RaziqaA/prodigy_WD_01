@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for font color */
+}
+
+nav.scrolled {
+    background-color: #444; /* Background color when scrolled */
+}
+
+nav ul li a:hover {
+    color: #ff0;
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+section:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #444;
+}
+.footer-bottom {
+    padding-top: 10px;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#nav-menu {  
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    background-color: #333;  
+    padding: 10px;  
+    text-align: center;  
+    transition: background-color 0.5s ease;  
+  }  
+    
+  #nav-menu ul {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: space-between;  
+  }  
+    
+  #nav-menu li {  
+    margin-right: 20px;  
+  }  
+    
+  #nav-menu a {  
+    color: #fff;  
+    text-decoration: none;  
+    transition: color 0.5s ease;  
+  }  
+    
+  #nav-menu a:hover {  
+    color: #ccc;  
+  }  
+    
+  #nav-menu.scrolled {  
+    background-color: blueviolet;  
+  }  
+    
+  #nav-menu.scrolled a {  
+    color: #aaa;  
+  }
+  
